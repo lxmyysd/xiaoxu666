@@ -1,15 +1,7 @@
-local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/UI/refs/heads/main/%E5%BD%A9%E8%99%B9.lua"))()
 
-CoreGui:SetCore("SendNotification", {
-    -- Customizable
-    Title = "玩家确认",
-    Text = "玩家:"..game.Players.LocalPlayer.Name.."，祝你玩的开心，嘿嘿",
-    Duration = 10, --时间
-})
-
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/lxmyysd/xiaoxu666/refs/heads/main/%E6%9F%93%E6%98%A5ui.lua"))()
-local window = library:new("染春脚本")
-local creds = window:Tab("使用脚本必看♥",'16060333448')
+local Window = library:new("染春")
+local creds = window:Tab("使用脚本必看🥰",'16060333448')
 
 local bin = creds:section("玩家信息",true)
 
@@ -18,10 +10,10 @@ local bin = creds:section("玩家信息",true)
     
     local bin = creds:section("关于的脚本和作者的信息",true)
     bin:Label("永久免费😀")
-    bin:Label("大群：892140244")
-    bin:Label("主作者:霖霖")
-    bin:Label("副作者:小徐😎😎😎😎😎")
-    bin:Label("除了俄亥俄州其他服务器都支持")
+    bin:Label("矢井凛主群：892140244")
+    bin:Label("主作者:小徐💀")
+    bin:Label("副作者:霖霖")
+    bin:Label("染春主群:961174607")
     bin:Label("后面会更新更多服务器")
     bin:Label("禁止倒卖脚本")
     bin:Label("倒卖4000+")
