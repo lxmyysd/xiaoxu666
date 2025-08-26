@@ -1,13 +1,3 @@
-whitelist = {
-"Xiaoxu_Love",
-"zzhak5",
-"用户名"
-}
-if table.find(whitelist, game.Players.LocalPlayer.Name) then
-   脚本
-    else 
-   没有白名单的脚本
-end
 local msg = Instance.new("Message",workspace)
 msg.Text = "欢迎使用染春脚本"
 wait(1.8)
@@ -124,16 +114,19 @@ about:Label("小皮是窝一辈子的恩人")
 about:Label("脚本懒得优化")
 about:Label("欢迎使用")
 
-local UITab2 = win:Tab("『帮助榜』",'16060333448')
+local UITab2 = win:Tab("『好人榜』",'16060333448')
 
 local about = UITab2:section("『RC MFZD』",true)
 
 about:Label("NO.1:霖霖")
 about:Label("NO.2:小皮")
-about:Label("NO.3:神缪")
-about:Label("NO.4:塑料")
-about:Label("NO.5:冉冉")
-about:Label("NO.6:LIVE")
+about:Label("NO.3:中透明")
+about:Label("NO.4:以实玛利")
+about:Label("NO.5:神不如风")
+about:Label("NO.6:小透明")
+about:Label("NO.7ikun")
+about:Label("NO.8Utopia")
+about:Label("NO9.晚风")
 
 local UITab3 = win:Tab("『出生榜』",'16060333448')
 
@@ -209,7 +202,7 @@ end)
 end)
 
 about:Button("点我复制脚本群",function()
-    setclipboard("1007217151")
+    setclipboard("892140244")
 end)
 
     about:Button("点我复制作者QQ",function()
