@@ -7,7 +7,7 @@ CoreGui:SetCore("SendNotification", {
     Duration = 10, --时间
 })
 
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
+local WindUI = loadstring(game:HttpGet("https://pastefy.app/ddceJmmm/raw"))()
 local window = library:new("染春脚本")
 local creds = window:Tab("使用脚本必看♥",'16060333448')
 
